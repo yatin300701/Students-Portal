@@ -1,0 +1,17 @@
+/* header   /    navbar  */
+
+.navbar {
+  display: flex;
+  background-color: "black";
+  color: "white";
+  height: 150px;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 900;
+}

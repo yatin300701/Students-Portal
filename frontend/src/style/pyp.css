@@ -1,0 +1,55 @@
+.pypBody {
+  width: 100%;
+}
+
+/* top headder */
+.pypHeading {
+  display: flex;
+  height: 100px;
+}
+.pypHeading div {
+  display: flex;
+}
+.pypHeading div img {
+  height: 80px;
+}
+
+.pypHeading div a img {
+  height: 60px;
+}
+.pypHeading-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pypHeading-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* border */
+
+.border {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+}
+
+/* body */
+.searchNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchNav input {
+  width: 70%;
+  height: 40px;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+}

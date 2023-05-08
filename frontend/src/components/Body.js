@@ -3,6 +3,8 @@ import "../style/body.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Pyp from "./Pyp";
+import Notes from "./Notes";
+import Syllabus from "./Syllabus";
 
 const routes = [
   {
@@ -23,7 +25,9 @@ export default function Body() {
         <BrowserRouter>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/about" element={<Pyp />} />
+            <Route path="/previous-year-paper" element={<Pyp />} />
+            <Route path="/notes" element={<Notes />} />
+            <Route path="/syllabus" element={<Syllabus />} />
             {/* <Route component={NotFound} /> */}
           </Routes>
         </BrowserRouter>

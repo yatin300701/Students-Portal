@@ -6,6 +6,8 @@ import sylImg from "../img/syl.jpg";
 import pathImg from "../img/paths.jpg";
 import youImg from "../img/youtube.jpg";
 
+// #1976d2
+
 export default function Home() {
   return (
     <div className="home-body">
@@ -13,7 +15,7 @@ export default function Home() {
       <div className="home-links">
         <div className="home-left-links">
           <p className="">
-            <a href="/previous-year-paper">
+            <a href="/previous-year-paper" style={{ color: "#1976d2" }}>
               <img src={pypImg}></img>
               Past Year Papers
             </a>
@@ -45,7 +47,7 @@ export default function Home() {
         <div className="home-right-links">
           <p className="">
             {" "}
-            <a href="#">
+            <a href="/guided-paths">
               <img src={pathImg}></img>
               Guided Paths
             </a>

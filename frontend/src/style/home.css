@@ -10,6 +10,10 @@
   margin-top: 50px;
 }
 
+.home-body p {
+  color: #1976d2;
+}
+
 /* all-links */
 .home-links {
   display: flex;
@@ -37,7 +41,8 @@
   display: flex;
   align-items: center;
   font-size: 25px;
-  color: black;
+  color: #1976d2;
+  font-weight: 600;
   text-decoration: none;
 }
 .home-left-links p a img {
@@ -55,6 +60,7 @@
 .home-right-links {
   display: flex;
   flex-direction: column;
+
   width: 100%;
 }
 .home-right-links p {
@@ -66,7 +72,8 @@
   display: flex;
   align-items: center;
   font-size: 25px;
-  color: black;
+  color: #1976d2;
+  font-weight: 600;
   text-decoration: none;
 }
 .home-right-links p a img {

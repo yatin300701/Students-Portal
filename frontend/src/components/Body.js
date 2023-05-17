@@ -5,6 +5,7 @@ import Home from "./Home";
 import Pyp from "./Pyp";
 import Notes from "./Notes";
 import Syllabus from "./Syllabus";
+import GuidedPaths from "./GuidedPaths";
 
 const routes = [
   {
@@ -28,6 +29,7 @@ export default function Body() {
             <Route path="/previous-year-paper" element={<Pyp />} />
             <Route path="/notes" element={<Notes />} />
             <Route path="/syllabus" element={<Syllabus />} />
+            <Route path="/guided-paths" element={<GuidedPaths />} />
             {/* <Route component={NotFound} /> */}
           </Routes>
         </BrowserRouter>

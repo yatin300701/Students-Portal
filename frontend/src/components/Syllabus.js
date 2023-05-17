@@ -12,7 +12,7 @@ export default function Syllabus() {
           <h1>Syllabus</h1>
         </div>
         <div className="sylHeading-right">
-          <a src="#">
+          <a href="/">
             <img src={home}></img>
           </a>
         </div>

@@ -12,7 +12,7 @@ export default function Notes() {
           <h1>Notes</h1>
         </div>
         <div className="notesHeading-right">
-          <a src="#">
+          <a href="/">
             <img src={home}></img>
           </a>
         </div>

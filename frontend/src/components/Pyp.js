@@ -12,7 +12,7 @@ export default function Pyp() {
           <h1>Past Year Papers</h1>
         </div>
         <div className="pypHeading-right">
-          <a src="#">
+          <a href="/">
             <img src={home}></img>
           </a>
         </div>
